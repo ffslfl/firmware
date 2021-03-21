@@ -1,0 +1,12 @@
+diff --git a/src/packages/fff/fff-alfred-monitoring-proxy/files/usr/sbin/alfred-monitoring-proxy b/src/packages/fff/fff-alfred-monitoring-proxy/files/usr/sbin/alfred-monitoring-proxy
+index 8b241f6..5431b99 100755
+--- a/src/packages/fff/fff-alfred-monitoring-proxy/files/usr/sbin/alfred-monitoring-proxy
++++ b/src/packages/fff/fff-alfred-monitoring-proxy/files/usr/sbin/alfred-monitoring-proxy
+@@ -1,6 +1,6 @@
+ #!/bin/ash
+ 
+-api_url="https://monitoring.freifunk-franken.de/api/alfred2"
++api_url="https://monitoring.schleswig-flensburg.freifunk.net/api/alfred2"
+ fetch_id="64"
+ 
+ /bin/alfred-json -r "$fetch_id" | \

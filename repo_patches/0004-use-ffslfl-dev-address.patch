@@ -1,0 +1,13 @@
+diff --git a/src/packages/fff/fff-hoodutils/files/lib/functions/fff/keyxchange b/src/packages/fff/fff-hoodutils/files/lib/functions/fff/keyxchange
+index a087861..ba5de4b 100644
+--- a/src/packages/fff/fff-hoodutils/files/lib/functions/fff/keyxchange
++++ b/src/packages/fff/fff-hoodutils/files/lib/functions/fff/keyxchange
+@@ -31,7 +31,7 @@ getUpgradePath() {
+ 		json_get_var upath upgrade_path
+ 		upgrade_path="$upath"
+ 	else
+-		upgrade_path="http://dev.freifunk-franken.de"
++		upgrade_path="http://dev.schleswig-flensburg.freifunk.net"
+ 		>&2 echo "Upgrade path not set! Falling back to $upgrade_path"
+ 	fi
+ 

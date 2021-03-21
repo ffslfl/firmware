@@ -1,0 +1,13 @@
+diff --git a/src/packages/fff/fff-hoods/files/usr/lib/functions/fff/hoodfile b/src/packages/fff/fff-hoods/files/usr/lib/functions/fff/hoodfile
+index 8755a73..f98fa38 100644
+--- a/src/packages/fff/fff-hoods/files/usr/lib/functions/fff/hoodfile
++++ b/src/packages/fff/fff-hoods/files/usr/lib/functions/fff/hoodfile
+@@ -99,7 +99,7 @@ getKeyserverHoodfile() {
+ 
+ 	echo "Getting hoodfile from Keyserver"
+ 
+-	if /bin/busybox wget -T15 -O "$file" "http://keyserver.freifunk-franken.de/v2/?lat=$lat&long=$long"; then
++	if /bin/busybox wget -T15 -O "$file" "http://keyserver.schleswig-flensburg.freifunk.net/v2/?lat=$lat&long=$long"; then
+ 		return 0
+ 	else
+ 		return 1

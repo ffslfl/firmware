@@ -1,0 +1,15 @@
+diff --git a/src/packages/fff/fff-config/files/etc/uci-defaults/98-configure-fff b/src/packages/fff/fff-config/files/etc/uci-defaults/98-configure-fff
+index f892f9f..ac92275 100644
+--- a/src/packages/fff/fff-config/files/etc/uci-defaults/98-configure-fff
++++ b/src/packages/fff/fff-config/files/etc/uci-defaults/98-configure-fff
+@@ -5,8 +5,8 @@
+ touch /etc/config/fff
+ 
+ if ! uci -q get fff.system > /dev/null ; then
+-	uci set fff.system=fff
+-	uci set "fff.system.hostname=FFF"
++	uci set fff.system=ffslfl
++	uci set "fff.system.hostname=FFSLFL"
+ 	uci commit fff
+ fi
+ 

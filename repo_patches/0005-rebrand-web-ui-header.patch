@@ -1,0 +1,13 @@
+diff --git a/src/packages/fff/fff-web-ui/files/www/include/header b/src/packages/fff/fff-web-ui/files/www/include/header
+index 0175c3a..33e56fe 100755
+--- a/src/packages/fff/fff-web-ui/files/www/include/header
++++ b/src/packages/fff/fff-web-ui/files/www/include/header
+@@ -38,7 +38,7 @@ fi
+ <body>
+ 	<div id="header" style="position: relative;">
+ 		<h1><%= ${HOSTNAME} %></h1>
+-		<h2>Freifunk Franken Router</h2>
++		<h2>Freifunk Schleswig-Flensburg Router</h2>
+ 		<img src="/freifunk.svg" style="position: absolute; top: 1px; right: 42px;" alt="" />
+ 	</div>
+ 	<div style="height: 30px; background-color: #ffb400;"></div>

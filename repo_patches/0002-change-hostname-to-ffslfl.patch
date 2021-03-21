@@ -1,0 +1,13 @@
+diff --git a/src/packages/fff/fff-dhcp/files/etc/uci-defaults/90-fff-dhcp b/src/packages/fff/fff-dhcp/files/etc/uci-defaults/90-fff-dhcp
+index 5b59aaf..e7fa66b 100644
+--- a/src/packages/fff/fff-dhcp/files/etc/uci-defaults/90-fff-dhcp
++++ b/src/packages/fff/fff-dhcp/files/etc/uci-defaults/90-fff-dhcp
+@@ -9,7 +9,7 @@ uci batch >/dev/null <<EOF
+   set dhcp.@dnsmasq[-1].localise_queries='0'
+   set dhcp.@dnsmasq[-1].rebind_protection='0'
+   set dhcp.@dnsmasq[-1].rebind_localhost='1'
+-  set dhcp.@dnsmasq[-1].domain='fff.community'
++  set dhcp.@dnsmasq[-1].domain='ffslfl.community'
+   set dhcp.@dnsmasq[-1].expandhosts='0'
+   set dhcp.@dnsmasq[-1].nonegcache='0'
+   set dhcp.@dnsmasq[-1].authoritative='1'

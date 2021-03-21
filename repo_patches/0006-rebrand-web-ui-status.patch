@@ -1,0 +1,19 @@
+diff --git a/src/packages/fff/fff-web-ui/files/www/public/cgi-bin/status.html b/src/packages/fff/fff-web-ui/files/www/public/cgi-bin/status.html
+index aed86b5..6cb4419 100755
+--- a/src/packages/fff/fff-web-ui/files/www/public/cgi-bin/status.html
++++ b/src/packages/fff/fff-web-ui/files/www/public/cgi-bin/status.html
+@@ -25,12 +25,12 @@ contact="$(uci -q get "fff.system.contact")"
+ <body>
+ 	<div id="header" style="position: relative;">
+ 		<h1><%= ${HOSTNAME} %></h1>
+-		<h2>Freifunk Franken Router</h2>
++		<h2>Freifunk Schleswig-Flensburg Router</h2>
+ 		<img src="/freifunk.svg" style="position: absolute; top: 1px; right: 42px;" alt="" />
+ 	</div>
+ 	<div style="height: 30px; background-color: #ffb400; position: relative;">
+ 		<div style="position: absolute; top: 20%; bottom: 20%; left: 40px; width: 20em; text-align: left;">
+-			<a style="color: #d22755; text-decoration: none; font-weight: bold;" href="http://www.freifunk-franken.de/">www.freifunk-franken.de</a>
++			<a style="color: #d22755; text-decoration: none; font-weight: bold;" href="https://schleswig-flensburg.freifunk.net/">schleswig-flensburg.freifunk.net</a>
+ 		</div>
+ 		<div style="background-color: #d22755; position: absolute; top: 20%; bottom: 20%; right: 42px; width: 3.4em; text-align: center; border-radius: 2px;">
+ 			<a style="color: #ffffff; text-decoration: none;" href="https://<%= ${HTTP_HOST} %>/">Login</a>
