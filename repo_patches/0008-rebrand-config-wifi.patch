@@ -7,7 +7,7 @@ index bc1bff6..54aaf4c 100644
  		set wireless.w${freq}configap.ifname='w${freq}configap'
  		set wireless.w${freq}configap.mode='ap'
 -		set wireless.w${freq}configap.ssid='config.franken.freifunk.net'
-+		set wireless.w${freq}configap.ssid='config.schleswig-flensburg.freifunk.net'
++		set wireless.w${freq}configap.ssid='config.ffslfl.net'
  		set wireless.w${freq}configap.encryption='none'
  		set wireless.w${freq}configap.hidden='1'
  		set wireless.w${freq}configap.disabled='1'
