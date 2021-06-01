@@ -1,0 +1,39 @@
+diff --git a/src/packages/fff/fff-babeld/files/etc/config/babeld b/src/packages/fff/fff-babeld/files/etc/config/babeld
+index a62788a..b85ce83 100644
+--- a/src/packages/fff/fff-babeld/files/etc/config/babeld
++++ b/src/packages/fff/fff-babeld/files/etc/config/babeld
+@@ -10,17 +10,12 @@ config interface
+ config filter
+        option type 'redistribute'
+        option local 'true'
+-       option ip '10.50.0.0/16'
++       option ip '10.24.32.0/19'
+
+ config filter
+        option type 'redistribute'
+        option local 'true'
+-       option ip '10.83.0.0/16'
+-
+-config filter
+-       option type 'redistribute'
+-       option local 'true'
+-       option ip 'fd43:5602:29bd::/48'
++       option ip 'fd07:96ae:572e::/48'
+
+ config filter
+        option type 'redistribute'
+@@ -29,12 +24,8 @@ config filter
+
+ config filter
+        option type 'redistribute'
+-       option ip '10.50.0.0/16'
+-
+-config filter
+-       option type 'redistribute'
+-       option ip '10.83.0.0/16'
++       option ip '10.24.32.0/19'
+
+ config filter
+        option type 'redistribute'
+-       option ip 'fd43:5602:29bd::/48'
++       option ip 'fd07:96ae:572e::/48'
