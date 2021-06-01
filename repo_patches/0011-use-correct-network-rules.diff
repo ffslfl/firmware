@@ -1,8 +1,8 @@
 diff --git a/src/packages/fff/fff-babeld/files/etc/uci-defaults/02-network-rules b/src/packages/fff/fff-babeld/files/etc/uci-defaults/02-network-rules
-index f1eaeb3..57b8211 100644
+index f1eaeb3..a759530 100644
 --- a/src/packages/fff/fff-babeld/files/etc/uci-defaults/02-network-rules
 +++ b/src/packages/fff/fff-babeld/files/etc/uci-defaults/02-network-rules
-@@ -1,38 +1,19 @@
+@@ -1,23 +1,14 @@
  uci batch <<EOF
    add network rule
 -  set network.@rule[0].src='10.50.0.0/16'
@@ -28,18 +28,3 @@ index f1eaeb3..57b8211 100644
    set network.@rule[4]=rule
    set network.@rule[4].in='client'
    set network.@rule[4].lookup='10'
-   set network.@rule[4].priority='31'
-   add network rule6
--  set network.@rule6[0]=rule6
--  set network.@rule6[0].src='fc00::/7'
--  set network.@rule6[0].lookup='10'
--  set network.@rule6[0].priority='20'
--  add network rule6
--  set network.@rule6[1]=rule6
--  set network.@rule6[1].dest='fc00::/7'
--  set network.@rule6[1].lookup='10'
--  set network.@rule6[1].priority='20'
--  add network rule6
-   set network.@rule6[2]=rule6
-   set network.@rule6[2].in='client'
-   set network.@rule6[2].lookup='10'
