@@ -1,0 +1,13 @@
+diff --git a/buildscript b/buildscript
+index 47b29c1..46316b7 100755
+--- a/buildscript
++++ b/buildscript
+@@ -285,7 +285,7 @@ cp_firmware() {
+         fi
+         for f in $fullsrcpattern; do
+             filename_build=${f##*/}
+-            filename_build=${filename_build//openwrt/fff-${version}}
++            filename_build=${filename_build//openwrt/ffslfl-${version}}
+             filename_build=${filename_build//squashfs-/}
+             filename_build=${filename_build//${chipset}-${subtarget}-/}
+             cp "$f" "$imagedestpath/$filename_build"
