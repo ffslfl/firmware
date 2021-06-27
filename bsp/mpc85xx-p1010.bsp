@@ -1,0 +1,6 @@
+chipset=mpc85xx
+subtarget=p1010
+
+images=(
+        "openwrt-${chipset}-${subtarget}-tplink_tl-wdr4900-v1-squashfs-*"
+       )
