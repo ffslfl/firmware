@@ -1,0 +1,13 @@
+diff --git a/src/packages/fff/fff-sysupgrade/files/sbin/fff-upgrade.sh b/src/packages/fff/fff-sysupgrade/files/sbin/fff-upgrade.sh
+index 1064beb..1a0d243 100755
+--- a/src/packages/fff/fff-sysupgrade/files/sbin/fff-upgrade.sh
++++ b/src/packages/fff/fff-sysupgrade/files/sbin/fff-upgrade.sh
+@@ -59,7 +59,7 @@ if [ "$VERSION" = "$FIRMWARE_VERSION" ]; then
+   done
+ fi
+ 
+-FILE="fff-${VERSION}-${BOARD}-sysupgrade.bin"
++FILE="ffslfl-${VERSION}-${BOARD}-sysupgrade.bin"
+ echo "Downloading $FILE"
+ echo ""
+ /bin/busybox wget "${UPGRADE_PATH}/${FILE}"
